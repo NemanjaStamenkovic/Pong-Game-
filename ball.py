@@ -30,7 +30,7 @@ class ball(Turtle):
     def resetball(self):
         self.goto(0,0)
         self.revert()
-        self.timer_sleep = 0.5
+        self.timer_sleep = 0.1
 
         
 
